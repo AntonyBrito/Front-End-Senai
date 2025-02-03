@@ -8,12 +8,20 @@
     <title>JavaScript Básico</title>
   </head>
   <body>
-    <label for="baseMaior">Base maior: </label>
-    <input type="number" id="baseMaiorInput" />
-    <label for="baseMenor">Base menor: </label>
-    <input type="number" id="baseMenorInput" />
-    <label for="number">Altura: </label>
-    <input type="number" id="alturaInput" />
+    <label for="baseMaiorInput">Base maior: </label>
+    <input
+      type="number"
+      id="baseMaiorInput"
+      placeholder="Informe a base maior"
+    />
+    <label for="baseMenorInput">Base menor: </label>
+    <input
+      type="number"
+      id="baseMenorInput"
+      placeholder="Informe a base menor"
+    />
+    <label for="alturaInput">Altura: </label>
+    <input type="number" id="alturaInput" placeholder="Informe a altura" />
     <input type="submit" value="Exibir" onclick="exibir()" />
     <p id="resultado"></p>
   </body>

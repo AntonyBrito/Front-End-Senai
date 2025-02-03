@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Básico</title>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <label for="produtoSelecionado">Escolha um produto:</label>
+    <select id="produtoSelecionado" name="produtoSelecionado">
+      <option value="100">Produto 1 R$100,00</option>
+      <option value="180">Produto 2 R$180,00</option>
+      <option value="220">Produto 3 R$220,00</option>
+    </select>
+    <label for="descontoSelecionado">Escolha o desconto</label>
+    <select id="descontoSelecionado">
+      <option value="0.10">10%</option>
+      <option value="0.15">15%</option>
+      <option value="0.25">25%</option>
+    </select>
+    <button onclick="exibir()">Exibir</button>
+    <p id="resultado"></p>
+  </body>
+</html>

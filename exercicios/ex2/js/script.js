@@ -10,7 +10,7 @@ function exibir() {
     baseMenor instanceof HTMLInputElement &&
     altura instanceof HTMLInputElement
   ) {
-    baseMaiorValor = baseMaior.value;
+    baseMaiorValor = baseMaior.value; //poderia usar parseFloat(baseMaior.value);
     baseMenorValor = baseMenor.value;
     alturaValor = altura.value;
 

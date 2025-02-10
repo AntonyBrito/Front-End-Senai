@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <label for="numeroUmInput">Digite um número: </label>
+    <input type="number" id="numeroUmInput" placeholder="Primeiro número" />
+    <label for="numeroDoisInput">Digite outro número: </label>
+    <input type="number" id="numeroDoisInput" placeholder="Segundo número" />
+    <br />
+    <br />
+    <label for="operacaoInput">Digite um número referente á operação: </label>
+    <input type="number" id="operacaoInput" placeholder="Número da operação" />
+    <button onclick="enviar()">Enviar</button>
+    <ul style="list-style: none">
+      <li>1 - Média entre dois números</li>
+      <li>2 - Diferença entre os números</li>
+      <li>3 - Produtos entre os números digitados</li>
+      <li>4 - Divisão do primeiro pelo segundo número</li>
+    </ul>
+
+    <p id="resultado"></p>
+  </body>
+</html>

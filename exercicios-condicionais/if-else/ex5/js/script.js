@@ -19,3 +19,12 @@ function situacao(nota) {
     return 'Reprovado';
   }
 }
+
+function main() {
+  let botao = document.getElementById('botao');
+  if (botao instanceof HTMLButtonElement) {
+    botao.addEventListener('click', enviar);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', main);

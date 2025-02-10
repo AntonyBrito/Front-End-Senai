@@ -14,9 +14,11 @@ function enviar() {
 
     let resultado = document.getElementById('resultado');
     if (resultado != null) {
-      resultado.textContent = String(
-        casos(numeroUmInputValor, numeroDoisInputValor, operacaoInputValor)
-      );
+      resultado.textContent =
+        'Resultado: ' +
+        String(
+          casos(numeroUmInputValor, numeroDoisInputValor, operacaoInputValor)
+        );
     }
   }
 }

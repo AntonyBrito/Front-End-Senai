@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <label for="produtoSelecionado">Escolha um produto:</label>
+    <select id="produtoSelecionado" name="produtoSelecionado">
+      <option value="10">Jornais R$10,00</option>
+      <option value="20">Revistas R$20,00</option>
+      <option value="30">Livros R$30,00</option>
+      <option value="40">Discos R$40,00</option>
+    </select>
+    <label for="quantidadeSelecionada">Escolha a quantidade</label>
+    <input type="number" min="1" step="1" id="quantidadeSelecionada" />
+
+    <button id="botao">Exibir</button>
+    <p id="resultado"></p>
+  </body>
+</html>

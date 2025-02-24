@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript figuras geometricas</title>
+    <script src="https://cdn.jsdelivr.net/npm/heroicons@2.0.18/outline/index.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .main {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+      }
+      .main div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .main div p {
+        margin-top: 1px;
+      }
+      .icon {
+        width: 100px;
+        height: 100px;
+        margin: 8px;
+        fill: #000;
+        transition: all ease-in-out 0.3s;
+      }
+      .icon:hover {
+        scale: 120%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Clique em uma figura geometrica</h1>
+    <div class="main">
+      <!-- Quadrado -->
+      <div>
+        <svg
+          class="icon"
+          id="quadrado"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          value="quadrado"
+        >
+          <path d="M4 4H16V16H4V4Z" />
+        </svg>
+        <p>Quadrado</p>
+      </div>
+
+      <!-- Retângulo -->
+      <div>
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          value="retangulo"
+        >
+          <path d="M3 4H17V16H3V4Z" />
+        </svg>
+        <p>Retângulo</p>
+      </div>
+
+      <!-- Trapézio -->
+      <div>
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          value="trapezio"
+        >
+          <path d="M2 14H18L12 6H8L2 14Z" />
+        </svg>
+        <p>Trapézio</p>
+      </div>
+
+      <!-- Triângulo -->
+      <div>
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          value="triangulo"
+        >
+          <path d="M10 3L16 17H4L10 3Z" />
+        </svg>
+        <p>Triângulo</p>
+      </div>
+
+      <!-- Círculo -->
+      <div>
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          value="circulo"
+        >
+          <path
+            d="M10 18C5.58 18 2 14.42 2 10C2 5.58 5.58 2 10 2C14.42 2 18 5.58 18 10C18 14.42 14.42 18 10 18Z"
+          />
+        </svg>
+        <p>Círculo</p>
+      </div>
+    </div>
+  </body>
+</html>

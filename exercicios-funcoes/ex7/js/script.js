@@ -14,6 +14,7 @@ function obterValores() {
 }
 
 function main() {
+  // faz o resultado e text content
   let produtoSelecionado = document.getElementById('produtoSelecionado');
 }
 

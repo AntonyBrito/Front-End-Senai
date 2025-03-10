@@ -1,3 +1,11 @@
+const saudacao = (nomePadrao, mensagemPadrao) => {
+  let saida = document.getElementById('resultado');
+
+  if (saida instanceof HTMLParagraphElement) {
+    saida.textContent = `Olá ${nomePadrao}! ${mensagemPadrao}!`;
+  }
+};
+
 function cliqueBotao(nomeInput, mensagemInput) {
   if (
     nomeInput instanceof HTMLInputElement &&
@@ -19,6 +27,8 @@ function cliqueBotao(nomeInput, mensagemInput) {
     } else {
       mensagem = mensagem;
     } */
+
+    saudacao(nome, mensagem);
   }
 }
 

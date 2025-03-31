@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estoque</title>
+    <script type="module" src="js/script.js" defer></script>
+</head>
+<body>
+    <h3>Adicionar produtos no estoque: </h3>
+    <label for="nomeProdutoInput">Nome do produto: </label>
+    <input type="text" id="nomeProdutoInput">
+    <label for="quantidadeProdutoInput">Quantidade: </label>
+    <input type="number" id="quantidadeProdutoInput" min="0" step="1">
+    <label for="precoProdutoInput">Preço: </label>
+    <input type="number" id="precoProdutoInput">
+    <label for="idEstoqueInput">ID do estoque que vai armazenar este produto: </label>
+    <input type="number" id="idEstoqueInput" min="1" step="1">
+    <button id="adicionarProdutoBtn">Adicionar</button>
+
+    <h3>Gestão de estoque: </h3>
+    <div id="estoquesDisponiveis"></div>
+
+    <label for="estoqueInput">ID do estoque: </label>
+    <input type="number" id="estoqueInput" min="1" step="1">
+    <button id="calcularEstoqueBtn">Calcular valor total dos produtos dentro do estoque</button>
+</body>
+</html>

@@ -12,4 +12,10 @@ export default class Produto{
     calcularValorTotal() {
         return this.#precoUnitario * this.#quantidade;
     }
+
+    toString() {
+        return `Nome: ${this.#nome},
+        Quantidade: ${this.#quantidade},
+        Preço unitário: ${this.#precoUnitario}`
+    }
 }
